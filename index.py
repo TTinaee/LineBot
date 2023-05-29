@@ -32,8 +32,8 @@ def checkword(w):
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('PFjJexLUqZyO4NjB2vNeMMK7tZhoIJurM0jlD/8BzVCFYQoLOcM0RQ8cbRxYXBwp0347a9EqL5EyDXn/zCdC6dA1cAitwOFtRu5ROOz/C8VwR1bwSuxPckGxDz6ijKhgc5F2X7sCvqNNYhMnt+lzFQdB04t89/1O/w1cDnyilFU=')
-handler1 = WebhookHandler('07e8fe603cc6a45936caf5ca294ffd1e')
+line_bot_api = LineBotApi('dUStesUsz3qN+5A2oLlg9hDbV7djOAld3A4nyPaJ16mKezwjkgdpflqpHZzaG2PzJITbWle765LwtSbBVOrtOasuhgOwyLi4PerRBElqURuNdfg5pCpVEl3O0AfKi6V6Y2ZeqPJ2UtXbTJy58qjR4QdB04t89/1O/w1cDnyilFU=')
+handler1 = WebhookHandler('be9adb3dd162d3d0bf18ac10197cc2fc')
 
 
 @app.route("/callback", methods=['POST'])
